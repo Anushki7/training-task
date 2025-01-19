@@ -1,6 +1,5 @@
-import { FunctionComponent } from "react";
+import React, { FunctionComponent } from "react";
 import { AnchorProps } from "./anchor.tsx";
-import { AnchorContext } from './anchorContext.tsx';
 
 export type LinkTag =
 	| keyof Pick<React.JSX.IntrinsicElements, 'a'>

@@ -1,8 +1,8 @@
-import { ChangeEvent, ReactElement } from "react";
+import { ChangeEvent } from "react";
 
 export interface InputProps {
 	className?: string;
-	type: string;
+	type?: string;
 	value?: string;
 	onChange?: (event: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => void;
 	name?: string;
@@ -10,5 +10,5 @@ export interface InputProps {
 	width?: string;
 	readOnly?: boolean;
 	isClearable?: boolean;
-	Tag: keyof React.JSX.IntrinsicElements;
+	Tag?: keyof React.JSX.IntrinsicElements;
 }

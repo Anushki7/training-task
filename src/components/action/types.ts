@@ -29,5 +29,5 @@ export enum ButtonLinkColor { //цвета кнопки под ссылку
 	Blue = 'blue',
 	Grey = 'grey',
 	Primary = 'primary',
-	Secondary = 'secondary',
+	Secondary = 'secondary'
 }
